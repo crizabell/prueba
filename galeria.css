@@ -1,0 +1,55 @@
+body{
+    margin: 0 auto;
+}
+.foto-galeria{
+    width: 49.7%;
+}
+.foto-galeria4{
+    width: 60%;
+}
+.foto-galeria5{
+    width: 33%;
+}
+.foto-galeria9{
+    width: 30%;
+}
+.foto-galeria10{
+    width: 52%;
+}
+@media (min-width: 200px)and (max-width: 500px){
+    .foto-galeria{
+        width: 100%;
+    }
+    .foto-galeria4{
+        width: 100%;
+    }
+    .foto-galeria5{
+        width: 100%;
+    }
+    .foto-galeria9{
+        width: 100%;
+    }
+    .foto-galeria10{
+        width: 100%;
+    }
+}
+@media (min-width: 501px)and (max-width: 800px){
+    .foto-galeria{
+        width: 49%;
+    }
+    .foto-galeria4{
+        width: 49%;
+    }
+    .foto-galeria5{
+        width: 49%;
+    }
+    .f05{
+        display: none;
+    }
+    .foto-galeria9{
+        width: 36%;
+    }
+    .foto-galeria10{
+        width: 63%;
+    }
+}
